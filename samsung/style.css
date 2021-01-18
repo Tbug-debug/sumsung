@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+.all {
+    height: 3200px;
+}
+
+.title {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sumsung-title {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+}
+
+.sumsung-title-textmenue {
+    display: flex;
+    justify-content: space-around;
+    width: 1900px;
+
+}
+
+.sumsung-title-one {
+    width: 200px;
+    height: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sumsung-title-one>span {
+    font-size: 30px;
+}
+
+.sumsung-title-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sumsung-title-two-comnews {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    border-right: 1px solid #7c7c7c;
+}
+
+.fa-search {
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+
+.fa-globe-americas {
+    font-size: 30px;
+}
+
+.picture {
+    height: 610px;
+    width: 1900px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.picture-text {
+    height: 510px;
+    width: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.recentnews {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+
+.recentnews__first {
+    width: 860px;
+    height: 2000px;
+}
+
+.recentnews__first-title {
+    width: 860px;
+    height: 40px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recentnews__first-title>span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+}
+
+.more {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-second {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-caret-right {
+    margin-left: 10px;
+}
+
+.recentnews-list {
+    width: 860px;
+    height: 295px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.recentnews-list-picture {
+    width: 525px;
+    height: 295px;
+}
+
+img {
+    width: 525px;
+    height: 295px;
+}
+
+.text {
+    width: 335px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.text>span {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.date {
+    width: 280px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.date>span {
+    color: #5d5d5d;
+}
+
+.newsmore {
+    width: 50px;
+    height: 100px;
+    width: 860px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsmore__button {
+    width: 330px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsmore__button>span {
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.recentcontents__second {
+    width: 460px;
+    height: 2000px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    border-left: 1px solid gray;
+
+}
+
+.recentcontents__second-title {
+    width: 410px;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recentcontents__second-title>span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+}
+
+.more>span {
+    font-size: 15px;
+}
+
+.recentcontents__second-video {
+    height: 308px;
+    width: 410px;
+    margin-top: 35px;
+    border-bottom: 1px solid gray;
+}
+
+.recentcontents__second-videos {
+    height: 210px;
+    width: 410px;
+}
+
+.second-videos {
+    height: 210px;
+    width: 410px;
+}
+
+.recentcontents__second-videos-text {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.fa-play {
+    text-align: center;
+    padding: 20px;
+    margin-left: 105px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background-color: black;
+    color: wheat;
+}
+
+.recentcontents__second-plan {
+    height: 330px;
+    width: 410px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+
+}
+
+.recentcontents__second-plan-list {
+    width: 410px;
+    height: 70px;
+    margin-bottom: 1px;
+    background-color: #e8eef5;
+    display: flex;
+    align-items: center;
+}
+
+.recentcontents__second-plan-list-text {
+    display: flex;
+
+}
+
+.spt {
+    width: 60px;
+    height: 40px;
+    border-right: 1px solid #c5cad0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #c5cad0;
+}
+
+.spt-one {
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.recentcontents__second-photo {
+    height: 200px;
+    width: 410px;
+
+    margin-top: 25px;
+}
+
+.second-photo-line {
+    height: 200px;
+    width: 410px;
+}
+
+.meidalibary {
+    height: 300px;
+}
